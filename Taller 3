@@ -1,0 +1,7 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import numpy.linalg
+
+####PCA y PCR####
+#Carga archivo WDBC.dat
+archivo=np.loadtxt('WDBC.dat', delimiter=',')
